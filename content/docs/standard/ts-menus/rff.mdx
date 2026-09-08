@@ -1,0 +1,120 @@
+---
+title: RFF
+description: Invetory Department
+---
+
+## Introduction [#introduction]
+
+The RFF Menu is the central module for inventory management and control within the application, organized into four major functional areas that range from item maintenance to the management of warehouse slots (locations).
+
+## RFF Menu [#menu]
+
+### Inventory Master[#master]
+
+- Option: **1**  
+  Item Master: Inventory Master File.Here you can maintain items . Here you will find all the information related to items, here you can search for your item, create new ones and delete them. All associated item information is here.
+
+- Option: **2**  
+  Item Status Rpt: Item Status Reports. Here you can print an item status report to an excel worksheet. You can print it by category or by item.
+
+- Option: **3**  
+  Item Status Import Rpt: Here you can upload a excel sheet to update the item statuses.
+
+### IC Reporting[#reporting]
+
+- Option: **R#**  
+  Box Agigng Export: Here you can print a box agigng report to an excel worksheet. You can print it by category.
+
+- Option: **R0**  
+  Box Aging Less Than Report: Box Aging Report by Item. This program creates a report that will identify boxes in inventory which are over the specified number of days old and the selected agiing date. Report to an excel worksheet. You can print it by category.
+
+- Option: **R1**  
+  Box Slot/Rpt: This option/program will print a slot report (including size). You can filter by slot location.
+
+- Option: **R2**  
+  Open Slot: Print Open Slot Labels.This option/program will print a report of open slot labels to a printer. You can filter by room.
+
+- Option: **R3**  
+  Box Aging Rpt: Box Aging Report by Item. This program creates a report that will identify boxes in inventory which are over the specified number of days old and the selected agiing date. Report to an excel worksheet. You can print it by category.
+
+- Option: **R4**  
+  Box/Prep Rpt: Perpetual to Box Variantion Report. This program is a Topshelf-DS utility that will generate a report of box/quantity variations between perpetual and box information. You can print it by item code.
+
+- Option: **R5**  
+  Box/Slot Value: This option/program will print a slot report . You can filter by slot location.
+
+- Option: **R6**  
+  Box Slot Group: This option/program will print a pdf report to the selected printer about slot location report (including size) by category/product group, you can sort by a set of parameters.The pdf will display slot information
+
+- Option: **R7**  
+  Box Tier: Print Slot/Box location report.This option/program will print a report of Slot/Box location information to a printer. You can filter by slot and tier.
+
+- Option: **R8**  
+  Box Inquiry: Inventory Slot Inquiry. In this program/option you will be able to enter a valid slot and see the warehouse associated and it's items.
+
+- Option: **R9**  
+  RPL: Box aging report by item. This report will identify boxes in inventory which are over the specified number of days old and the selected aging date. You can filter by product category, warehouse, cooler, pack date/receipt date.
+
+- Option: **D1**  
+  MDM Get MySQL Data: MySQL Data Retrieval. This option will get all the data from MySQL tables that start with "Di", for example. Dicustomer. This option will call program DARINB. Once finished the process a pop up "Import Completed" will show. Password Protected.
+
+- Option: **D2**  
+  MDM Create Item: File Archive Processing. This option will process the items coming from MySQL table Diitem. Once finished the process, this will pop out "Update Completed" will appear. Password protected.
+
+- Option: **D3**  
+  MDM Item Worksheet: Item creation program. Once the items coming from MySQL are processed on option D2, you can modify them/set them up here. Password protected.
+
+- Option: **D4**  
+  MDM Send Ackowledgement: MySQL Data Transmit. This option/program will send all the data of the Topshelf files being replicated to MySQL tables that start with Dr for example: Dritem. This option calls program Darrep who is in charge of sending the data to MySQL. Once finished. the program shows "Export Completed". Password Protected.
+
+### Control Points[#control_points]
+
+- Option: **OP**   
+  Override Info: This option will get you to Menu OVR (Over Ride Controls).
+
+- Option: **RC**   
+  Recall Rpt: This option will lead you to Menu RCL (Product Recall Reporting).
+
+- Option: **RF**   
+  Inv. Rpt: This option will lead you to Menu RRR (Reports Menu).
+
+- Option: **SM**   
+  Inventory System: This option will lead to Menu SIC (Inventory Control Setup Menu).
+
+- Option: **P**    
+  EOM Menu: This option will lead to Menu PIU (Pshysical Inventory - User).
+
+- Option: **EM**   
+  Email: This option will lead to Menu EML (Email Setup Menu).
+
+- Option: **SH**  
+  Shipping: This option leads to Menu SHP (Shipping Department).
+
+- Option: **M1**   
+  Multi Source Portion Model: Multi Item Source Portion Model. In this option/program you can select, create and delete a model. Here you can modify the model information.
+
+- Option: **M2**  
+  Item Model Assignment MutiSrc: Item Source Maintenance. This panel let you manage source items.
+
+- Option: **M3**   
+  Item Model Maintenance: Multi Source Item Maintenance. In this option you can assign items to a multi item source gruoup and maintain them. You can create, delete and modify them.
+
+### Slotting Functions[#slotting]
+
+- Option: **S1**  
+  Slot Settings: Slot Maintenance: Here you can modifiy a slot, modify it's information, delete them and create new ones.
+
+- Option: **S2**  
+  Slot Labels: Print Slot Labels: This option/program will print a slot labels report to a printer. You can Filter by Slot location, you can restrict tiers, slot type, print arrows and item descriptions.
+
+- Option: **S3**  
+  Slot/Item Maint: Inventory Slot Maintenance. You can display the slot-item information by category and warehouse code. You can Update the slot of an Item. You can export the information to excel. Password Protected.
+
+- Option: **IC**  
+  Item Category Assignment: Item alternate category maintenance. This option is currectly not activated. A pop up will be displayed "Alternate item category processing is not activated"
+
+- Option: **IS**  
+  Item Size Maintenance: Item Size Maintenance. Here you can export/import items, you can select them and modify their pack qty and pack size by category. You can import an excel worksheet.
+
+- Option: **U1**  
+  Unif of Measure: Unit of Measure Maintenance. Here you can add, delete and mofify the unit of measure information. You can allow it for sales and allow for inventory.
